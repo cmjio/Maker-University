@@ -2,6 +2,17 @@
 
 *Introduction to Basic Javascript*
 
+Running our server-side JS code
+```javascript
+cd path/to/code/
+node myFile.js
+```
+
+Experimenting with Client Side JS on JS Fiddle
+* Visit http://jsfiddle.net/
+* Open your Chrome Console
+* Fill our JS Box
+* Click "Run" or "Save"
 
 ```javascript
 
@@ -71,6 +82,7 @@ sample['isQA']  // true
 /*
  * Functions are ways to group blocks of code
  */
+
 // Declaring Functions
 function doStuff(){
 	// your code
@@ -78,6 +90,7 @@ function doStuff(){
 
 // Calling Functions
 doStuff();
+
 
 /*
  * console.log() is a function for writing output to a console.
@@ -95,6 +108,7 @@ var myFunction = function(){
 };
 myFunction(); // Call like any other function
 
+
 /*
  * Operators
  * Add: +
@@ -108,6 +122,7 @@ var myVal = (2*8) + 4; 	  // 20
 var myVal = (100/(10*2)); // 5
 var myVal = 100 - 250; 	  // -150
 
+
 // Concatenation
 var myName = "Maker" + " " + "University"; // "Maker University"
 var myString = "foo" + 5 + "bar"; 		   // "foo5bar"
@@ -116,16 +131,24 @@ var firstName = "John";
 var lastName = "Doe";
 var fullName = firstName + " " + lastName; // "John Doe"
 
+
 // Returning Values and Leveraging Functions
 function getName(){
 	return "Bill"
 }
-
 var message = "Hello, " + getName(); // "Hello, Bill"
 
+// Calling functions with Parameters
+function addFive(num){
+	return num+5;
+}
+var myNum = addFive( 12 ); // 17
+
+
+/*
+ * Complete this JSFiddle: http://jsfiddle.net/jakie8/ELk2y/
+ */
+
 ```
-
-
-**[[⬆]](#TOC)**
 
 # };
