@@ -2,18 +2,21 @@
 
 *Introduction to Basic Javascript*
 
-Running our server-side JS code
+### Running our server-side JS code
 ```javascript
 cd path/to/code/
 node myFile.js
 ```
 
-Experimenting with Client Side JS on JS Fiddle
+### Experimenting with Client Side JS on JS Fiddle
 * Visit http://jsfiddle.net/
 * Open your Chrome Console
-* Fill our JS Box
-* Click "Run" or "Save"
+* Fill out JS Box
+* Click "Run" or "Save" and view console
 
+* * *
+
+## 1. Variables &amp; Functions
 ```javascript
 
 // Variables
@@ -137,6 +140,7 @@ function getName(){
 	return "Bill"
 }
 var message = "Hello, " + getName(); // "Hello, Bill"
+
 
 // Calling functions with Parameters
 function addFive(num){
