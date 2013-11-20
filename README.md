@@ -1,4 +1,4 @@
-# Maker.University = function() {
+# function MakerUniversity() {
 
 *Introduction to Basic Javascript*
 
