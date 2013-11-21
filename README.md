@@ -34,10 +34,11 @@ var UPPERCASE;
 var myString = "Hello, World!";
 var myString = 'Hello, World!';
 
-var escaped = "It's alright";
-var escaped = "He is called 'Johnny'";
-var escaped = 'He is called "Johnny"';
-
+var myString = "It's alright";
+var myString = "He is called 'Johnny'";
+var myString = 'He is called "Johnny"';
+var escaped = "He said \"Javascript\" out loud.";
+var escaped = 'Why, It\'s a wonderful day!';
 
 // Numbers
 var myNum = 34.00;
