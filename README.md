@@ -21,6 +21,7 @@ node myFile.js
 
 // Variables
 var variableName;
+var someVariable = variableName;
 
 
 // Casing
@@ -59,16 +60,16 @@ var mixed = [false, "Bill", 75, someVariable];
 // Accessing Arrays
 sample[0] // 10
 sample[2] // 12
-mixed[2]  // "Bill"
+mixed[1]  // "Bill"
 
 
 // Object Literals
 var sample = {
-	foo: "bar",
-	hello: "world",
-	name: "Bill",
-	age: 100,
-	isQA: true
+  foo: "bar",
+  hello: "world",
+  name: "Bill",
+  age: 100,
+  isQA: true
 };
 
 
@@ -89,11 +90,16 @@ sample['isQA']  // true
 
 // Declaring Functions
 function doStuff(){
-	// your code
+  // your code
+}
+
+var doMoreStuff = function(){
+  // do more code
 }
 
 // Calling Functions
 doStuff();
+doMoreStuff();
 
 
 /*
@@ -101,14 +107,14 @@ doStuff();
  * It's parameters are the data structures you wish to log
  */
 function sayHello(){
-	console.log( "Hello, World!" );
+  console.log( "Hello, World!" );
 }
 sayHello(); // Call our function, outputs "Hello, World!"
 
 
 // Anonymous Functions (functions with no name, or functions as values):
 var myFunction = function(){
-	// your code
+  // your code
 };
 myFunction(); // Call like any other function
 
@@ -121,15 +127,15 @@ myFunction(); // Call like any other function
  * Divide: /
  * Modulus: % (division remainder)
  */
-var myVal = 5+10; 		  // 15
-var myVal = (2*8) + 4; 	  // 20
+var myVal = 5+10;       // 15
+var myVal = (2*8) + 4;     // 20
 var myVal = (100/(10*2)); // 5
-var myVal = 100 - 250; 	  // -150
+var myVal = 100 - 250;     // -150
 
 
 // Concatenation
 var myName = "Maker" + " " + "University"; // "Maker University"
-var myString = "foo" + 5 + "bar"; 		   // "foo5bar"
+var myString = "foo" + 5 + "bar";        // "foo5bar"
 
 var firstName = "John";
 var lastName = "Doe";
@@ -138,14 +144,14 @@ var fullName = firstName + " " + lastName; // "John Doe"
 
 // Returning Values and Leveraging Functions
 function getName(){
-	return "Bill"
+  return "Bill"
 }
 var message = "Hello, " + getName(); // "Hello, Bill"
 
 
 // Calling functions with Parameters
 function addFive(num){
-	return num+5;
+  return num+5;
 }
 var myNum = addFive( 12 ); // 17
 
